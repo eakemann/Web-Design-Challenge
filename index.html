@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  <title>Summary: Latitude vs. X</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand order-1 mr-0" href="index.html">Latitude Dashboard</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="https://raw.githubusercontent.com/eakemann/Web-Design-Challenge/master/CityLatitude%26Temp.png">vs. Max Temperature</a>
+                  <a class="dropdown-item" href="https://raw.githubusercontent.com/eakemann/Web-Design-Challenge/master/CityLatitude%26Humidity.png">vs. Humidity</a>
+                  <a class="dropdown-item" href="https://raw.githubusercontent.com/eakemann/Web-Design-Challenge/master/CityLatitude%26Clouds.png">vs. Cloud Cover</a>
+                  <a class="dropdown-item" href="https://raw.githubusercontent.com/eakemann/Web-Design-Challenge/master/CityLatitude%26WindSpeed.png">vs. Wind Speed</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-7">
+        <h1 class="mb-4">Summary: Latitude vs. X</h1>
+        <hr class="mr-4">
+        <img class="p-3" src="img/temp.png" alt="vs. max temperature" height="220" width="260" align="left">
+        <p class="pt-2 mr-2">The purpose of this project was to see if there is a relationship between latitude and four different weather events: max temperature, wind speed, humidity, and cloud cover. Five hundred random cities were selected on March 15, 2020 to then use a weather API to observe the cities' weather on that day and how it related to the four weather factors. </p>
+        <p class="pl-2 mr-2">While this is a representative model of weather in cities across the world, it is only a snapshot of one day's weather - March 15, 2020. A seasonal or yearly historical view could offer more insight. This site contains the visualizations, analysis, and source data.</p>
+      </div>
+      <div class="card col-lg ml-3">
+        <h3 class="pb-4">Visualizations</h3> 
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-sm-3">
+            <div class="card mb-3">
+              <a href="temp.html">
+                <img class="card-img-top" src="img/temp.png" alt="vs. Max Temp">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Max Temp</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-sm-3">
+            <div class="card mb-3">
+              <a href="humidity.html">
+                <img class="card-img-top" src="img/humidity.png" alt="vs. Humidity">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Humidity</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-sm-3">
+            <div class="card mb-3">
+              <a href="https://raw.githubusercontent.com/eakemann/Web-Design-Challenge/master/CityLatitude%26Clouds.png">
+                <img class="card-img-top" src="img/cloud.png" alt="vs. Cloudiness">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Cloud Cover</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-sm-3">
+            <div class="card mb-3">
+              <a href="wind.html">
+                <img class="card-img-top" src="img/wind.png" alt="vs. Wind Speed">
+              </a>
+              <div class="card-body">
+                <h6 class="card-title text-center">Wind Speed</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light mt-3">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="https://github.com/eakemann" target="_blank">Website Repo</a>
+          <a class="nav-item nav-link" href="https://github.com/eakemann/Python-API-Challenge/tree/master/API_Py" target="_blank">Weather Analysis Repo</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </body>
+  </html>
